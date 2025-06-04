@@ -1,0 +1,5 @@
+? WHAT IS GIT
+> Git is a version control system.Version control is a software that tracks and manages changes to files over time.Version control systems generally allow users to revisit earlier versions of the files, compare changes between versions, undo changes,
+  and a whole lot more.There are many other version control softwares available like Subversion, CVS, and Mercurial.Git helps us to revisit older versions,revert changes to an older version.It also hhelps us to collaborate and share changes.
+? DIFFERENCE BETWEEN GIT AND GITHUB
+> Git runs locally in your machine.You dont need to create an account to use git.Whereas Github is a service that hosts git repositories in cloud and makes it easier to share the work done using git.
