@@ -1,0 +1,51 @@
+$ sudo apt update
+  # Return statements
+      #Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+      #Hit:2 http://security.ubuntu.com/ubuntu jammy-security InRelease
+      #Hit:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+      #Hit:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+      #Reading package lists... Done
+      #Building dependency tree... Done
+      #Reading state information... Done
+      #All packages are up to date.
+    #
+
+$ sudo apt install git//To install git
+    #Return statements
+        #Reading package lists... Done
+        #Building dependency tree... Done
+        #Reading state information... Done
+        #Reading state information... Done
+        #The following additional packages will be installed:
+          #git-man liberror-perl
+        #Suggested packages:
+          #git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn
+        #The following NEW packages will be installed:
+          #git git-man liberror-perl
+        #0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+        #Need to get 5,712 kB of archives.
+        #After this operation, 39.6 MB of additional disk space will be used.
+        #Do you want to continue? [Y/n] 
+        #Once you press Y, it continues like this:
+        #Get:1 http://archive.ubuntu.com/ubuntu jammy/main amd64 liberror-perl all 0.17029-1 [26.5 kB]
+        #Get:2 http://archive.ubuntu.com/ubuntu jammy/main amd64 git-man all 1:2.34.1-1ubuntu1.10 [889 kB]
+        #Get:3 http://archive.ubuntu.com/ubuntu jammy/main amd64 git amd64 1:2.34.1-1ubuntu1.10 [4,796 kB]
+        #Fetched 5,712 kB in 2s (3,025 kB/s)
+        #Selecting previously unselected package liberror-perl.
+        #(Reading database ... 167135 files and directories currently installed.)
+        #Preparing to unpack .../liberror-perl_0.17029-1_all.deb ...
+        #Unpacking liberror-perl (0.17029-1) ...
+        #Selecting previously unselected package git-man.
+        #Unpacking git-man (1:2.34.1-1ubuntu1.10) ...
+        #Selecting previously unselected package git.
+        #Unpacking git (1:2.34.1-1ubuntu1.10) ...
+        #Setting up liberror-perl (0.17029-1) ...
+        #Setting up git-man (1:2.34.1-1ubuntu1.10) ...
+        #Setting up git (1:2.34.1-1ubuntu1.10) ...
+        #Processing triggers for man-db (2.10.2-1) ...
+
+
+$ git --version //To check installation
+  #Return statements
+    #git version 2.34.1
+
